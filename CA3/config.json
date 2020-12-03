@@ -1,0 +1,39 @@
+{
+"API-keys":{
+           "News":"92b7dea9e59f49389199f9c3e60a8175",
+           "Weather":"30f2de85d595a6bbd49af9e38f8b54b0"
+           },
+"covid-breifing-strings":{"part1":"Hello this is your daily briefing on the progression of the corona virus pandemic these are the statistics for",
+"part2":"where there have been",
+"part3":"new cases across the",
+"part4":"bringing the total number of cases to",
+"part5":"there have also been",
+"part6":"new deaths in the past 24 hours"},
+"covid-data-filters":{"cases_and_deaths":{
+        "date": "date",
+        "name": "areaName",
+        "code": "areaCode",
+        "cases": {
+            "daily": "newCasesByPublishDate",
+            "cumulative": "cumDeaths28DaysByPublishDate"
+        },
+        "deaths": {
+            "daily": "newDeaths28DaysByPublishDate",
+            "cumulative": "cumDeathsByDeathDate"
+        }
+    }},
+"news-briefing-strings":{"part1":"Now the news headlines"},
+"weather-breifing-strings":{"part1":"On a more positive note however this is what the weather looks like in",
+    "part2":"today. Firstly expect",
+    "part3":"in your area. The tempreature is",
+    "part4":"degrees celsius. But feels like",
+    "part5":"The pressure in the attmosphere is",
+    "part6":"and the humidity is",
+    "part7":"percent"},
+"other-messages":{"help":"Hello and welcome to the COVID daily breifing to begin reciving breifings please enter the date and the time you would like to recive your briefing at and click the tick boxes to include weather and/or news",
+"thresholds":{"threshold1":"There have been more than 10000 cases around the uk in the past 24 hours",
+    "threshold2":"There have been more than 15000 cases around the uk in the past 24 hours",
+    "threshold3":"There have been more than 20000 cases around the uk in the past 24 hours",
+    "threshold4":"There have been more than 25000 cases around the uk in the past 24 hours",
+    "threshold5":"There have been more than 30000 cases around the uk in the past 24 hours"}}
+}
